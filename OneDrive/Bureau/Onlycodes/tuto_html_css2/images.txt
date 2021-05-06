@@ -1,0 +1,61 @@
+Tutoriel 2 HTML/CSS administré par Ibongo Okiéssi Bénit
+
+<!--- LES FORMAT D'IMAGES  --->
+
+Il existe plusieurs types d'images sur le web:
+
+#LE FORMAT JPEG (Joint Photographic Experts Group):
+
+Le plus répandu. Ce format est conçu pour réduire le poids des photos.
+Les images jpeg sont enregistrées sous le format jpg ou jpeg.
+A noter qu'il détériore un peu la qualité de l'image, d'une façon généralement imperceptible.
+
+#Le format Png (Portable Network Graphics):
+
+Le png est un format récent et il s'adpte à la plupart des graphiques.
+Il a deux gros avantages : il peut être rendu transparent et il n'altère pas la qualité de l'image.
+
+#Le format GIF (Graphics Interchange Format):
+
+C'est un format assez vieux, mais auparavant très utilisé.
+Aujourd'hui le Png est bien meilleur que lui.
+Cependant, le Gif possède certains avantages comme le fait qu'il peut être animé.
+
+NB: Chaque image possède un format adapté à lui.
+
+exemple:
+
+-Pour une photo : utilisez un JPEG.
+-Pour n'importe quel graphique avec beaucoup de couleurs : utilisez le Png
+-Pour les image animées : utilisez le GIF
+
+
+<!--- INSERER UNE IMAGE  --->
+
+Tout ce passe dans la fameuse balise <img />.
+La balise doit être accompagnée de deux attributs OBLIGATOIRES qui sont "src et alt".
+
+#src:
+
+l'attribut src indique où se trouve l'image que l'on veut insérer.
+Vous pouvez soit mettre un chemin absolu (ex. : http://www.site.com/stylo.jpg),
+soit mettre le chemin en relatif (ce qu'on fait la plupart du temps).
+Donc, si votre image est dans un sous-dossier images, vous devrez mettre : src="images/stylo.jpg"
+
+#alt (texte alternatif):
+
+Il faut toujours indiquer un texte alternatif à l'image, c'est-à-dire un court texte qui décrit ce que contient l'image.
+Ce texte sera affiché à la place de l'image si celle-ci ne peut pas être téléchargée.
+Pour notre image stylo, on mettrait par exemple: alt="Une stylo".
+
+#title (titre en français):
+
+L'attribut title n'est pas obligatoire mais il permet de placer un texte au survol de l'image.
+
+#width & height
+
+Vous l'aurez width pour la largeur et height pour la hauteur.
+Mais il est possible de les définir au niveau du css.
+
+
+NB: Les images doivent se trouver obligatoirement à l'intérieur d'un paragraphe <p><p />
